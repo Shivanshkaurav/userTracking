@@ -56,4 +56,4 @@ class TodoTrackingAdmin(admin.ModelAdmin):
         """
         Disable the delete functionality.
         """
-        return True
+        return False
